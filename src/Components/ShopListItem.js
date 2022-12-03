@@ -2,7 +2,7 @@ const ShopListItem = ( {id, name, location, price, backgourndSrc, link, contact,
 
     return (
       <li className="card"> 
-        <img src={backgourndSrc} alt={name} /> 
+        <img style = {{width: "200px", height: "200px"}} src={backgourndSrc} alt={name} /> 
         <h4>{name}</h4>
         <h4>{location}</h4>
         <h4>`Rent hourly: ${price}`</h4>

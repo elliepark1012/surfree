@@ -4,7 +4,7 @@ const Header = () => {
       <div className="Header">
         <h1>Surf-free::</h1>
         <h3>Enrich Your Surf Trip</h3>
-        <video src= {video} autoPlay loop comuted />
+        <video src= {video} autoPlay loop muted />
 
       </div>
     )
