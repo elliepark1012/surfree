@@ -1,4 +1,4 @@
-export default shops = [
+const shops = [
     {
         id: 1,
         name: "Rockaway Beach Surf Shop",
@@ -170,7 +170,7 @@ export default shops = [
         rating: 5.0
     },
     {
-        id: 17,
+        id: 18,
         name: "Engstorm Surf Lessons",
         location: "Montauk", 
         price: 25,
@@ -180,7 +180,7 @@ export default shops = [
         rating: 5.0
     },
     {
-        id: 18,
+        id: 19,
         name: "Coreyswave Professional Surf",
         location: "Montauk", 
         price: 20,
@@ -190,7 +190,7 @@ export default shops = [
         rating: 5.0
     },
     {
-        id: 19,
+        id: 20,
         name: "Eastern Lines Surf Shop",
         location: "Sandy Hook", 
         price: 30,
@@ -200,7 +200,7 @@ export default shops = [
         rating: 4.3
     },
     {
-        id: 20,
+        id: 21,
         name: "Lucky Dog Surf",
         location: "Sandy Hook", 
         price: 10,
@@ -210,7 +210,7 @@ export default shops = [
         rating: 4.7
     },
     {
-        id: 21,
+        id: 22,
         name: "TAK Waterman Surf & Fish",
         location: "Sandy Hook", 
         price: 10,
@@ -220,7 +220,7 @@ export default shops = [
         rating: 5.0
     },
     {
-        id: 22,
+        id: 23,
         name: "Brave new world",
         location: "Sandy Hook", 
         price: 15,
@@ -230,3 +230,5 @@ export default shops = [
         rating: 4.0
     }    
 ]
+
+export default shops;
