@@ -1,14 +1,11 @@
 
 import { useState, useEffect } from "react";
-import {Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import ShopForm from "./Components/ShopForm";
 import ShopDetail from "./Components/ShopDetail";
-import './App.css';
-
-
 import ShopList from "./Components/ShopList";
 
 const App = () =>  {
@@ -16,7 +13,7 @@ const App = () =>  {
   const [shops, setShops] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/shops")
+    fetch("http://localhost:3002/shops")
       .then((resp) => resp.json())
       .then((shops) => setShops(shops));
   },[])
