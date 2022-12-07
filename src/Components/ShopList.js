@@ -1,8 +1,9 @@
-import { React, useState } from "react"
+import { React, useState } from "react";
+import { Link } from "react-router-dom";
 import ShopListItem from "./ShopListItem";
 
 const ShopList = ({ shops }) => {
-    console.log(shops)
+   
     const [searchQuery, setSearchQuery] = useState("");
   
     const searchResults = shops.filter((shop) => {
@@ -10,9 +11,16 @@ const ShopList = ({ shops }) => {
              shop.location.toLowerCase().includes(searchQuery.toLowerCase());
     });
   
-    const shopListItems = searchResults.map((shop) => (
-      <ShopListItem key={shop.id} {...shop} /> 
-    ))
+    const shopListItems = searchResults.map((shop) => {
+      return (
+        <Link to={`/shops/${shop.id}`}>
+           <ShopListItem 
+              key={shop.id} 
+              shop={shop} 
+            /> 
+        </Link>
+      );
+    });
   
     const handleOnChange = (e) => setSearchQuery(e.target.value);
   
