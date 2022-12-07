@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import {Switch, Route } from "react-router-dom";
 
@@ -15,7 +16,7 @@ const App = () =>  {
   const [shops, setShops] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/shops")
+    fetch("http://localhost:3000/shops")
       .then((resp) => resp.json())
       .then((shops) => setShops(shops));
   },[])

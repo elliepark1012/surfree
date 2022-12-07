@@ -15,13 +15,13 @@ const ShopForm = ( { onAddShop }) => {
         setFormData((formData) => ({...formData, [name]: value }));
     };
 
-    const handleSumbit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         const configObj = {
             method: "POST",
             headers: {
                 "Content-Type":"application/json",
-                Accept: "application/json"
+                "Accept": "application/json"
             },
             body: JSON.stringify({...formData}),
         };
