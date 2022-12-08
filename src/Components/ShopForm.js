@@ -1,19 +1,25 @@
 import { useState } from "react";
+import comingsoon from "../assets/coming_soon.jpg"
 
 const ShopForm = ( { onAddShop }) => {
     const [formData, setFormData] = useState({
         name:"",
         location:"",
         price:"",
-        backgroundSrc:"",
+        backgroundSrc:{comingsoon},
         link:"",
         contact:"",
     });
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData((formData) => ({...formData, [name]: value }));
+        setFormData((formData) => ({...formData, [name]: value,}));
     };
+
+    const handleClick = () => {
+        const welcome = "Thank you for becoming our partner"
+        alert(welcome)
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -44,7 +50,7 @@ const ShopForm = ( { onAddShop }) => {
     return (
         <section>
             <form className="form" autoComplete="off" onSubmit={handleSubmit}>
-                <h3>Join Our Community</h3>
+                <h1 className="form-title">Join Our Community<br></br>//Surfree Partnership</h1>
 
                 <label htmlFor="name">Name</label>
                 <input 
@@ -63,10 +69,10 @@ const ShopForm = ( { onAddShop }) => {
                     value={formData.location}
                 >
                     <option value="Location">Location</option>
-                    <option value="Rockaway Beach"></option>
-                    <option value="Long Beach"></option>
-                    <option value="Montauk"></option>
-                    <option value="Sandy Hook"></option>
+                    <option value="Rockaway Beach">Rockaway Beach</option>
+                    <option value="Long Beach">Long Beach</option>
+                    <option value="Montauk">Montauk</option>
+                    <option value="Sandy Hook">Sandy Hook</option>
                 </select>
 
                 <label htmlFor="link">Shop Link</label>
@@ -87,7 +93,10 @@ const ShopForm = ( { onAddShop }) => {
                     value={formData.backgroundSrc}
                 />
 
-                <button type="sumbmit"> Join as a Shop</button>
+                <h3>Our Connection Team will contact you shortly. 
+                <br></br>While your shop will show up on the page with Coming Soon on the image!</h3>    
+
+                <button type="sumbmit" onClick={handleClick}> Become a Partner</button>
             </form>
         </section>
     );

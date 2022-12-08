@@ -214,25 +214,70 @@ padding: 60px;
  > div {
   flex-basis: calc(50%);
   text-align: center;
-  
 }
 
 a {
   text-decoration: none;
 }
 
-.shop-detail-box {
-   width: 100%;
+.shop-detail-box, .form {
+   width: 70%;
    display: block;
    margin: 0 auto;
-
-
-   background-color: #ffc728;
+   padding: 20px;
+   background-color: #f6eded;
+   text-align: center;
+   -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+   box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
 }
 
 .shop-image {
+  width: 800px;
+  height: 300px;
   padding: 20px;
 }
 .details {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  margin-inline: px;
+  color: #39393b;
+}
 
+.shop-link {
+  color: #ffc728;
+}
+
+.form-title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.form label {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 1vh 0;
+  font-weight: bold;
+}
+
+.form input, .form select, .form button {
+    display:inline-block;
+    width: 50%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0 ;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form {
+  align-items: center;
+  justify-content: center;
+}
+
+.form button {
+  background-color: #9fc8dd;
 }

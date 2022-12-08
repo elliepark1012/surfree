@@ -23,24 +23,24 @@ const ShopDetail = () => {
     return (
         <section>
             <div className="shop-detail-box">
-                <div className="shop-image">
-                    <img src={backgroundSrc} alt={name} />                 
+                <div>
+                    <img className="shop-image" src={backgroundSrc} alt={name} />                 
                 </div>
+                    <h1 className="card-name">{name}</h1>
+                    <h1 className="card-location">📍 {location}</h1>
                 <div className="details">
-                    <h2>{name}</h2>
-                    <p>{location}</p>
-                    <p>{price}</p>
+                    <h1>Surf Board Rental ${price}/h </h1>
+                    <h1>Average Review {rating}</h1>
                     {link ? (
-                        <p>
-                            <a target="_blank" rel="noreferrer" href={link}>
-                                Shop Link
+                        <p> 
+                            <a className="shop-link" target="_blank" rel="noreferrer" href={link}>
+                                Click Here for Shop Link 👈
                             </a>
                         </p>
                     ) : null}
-                <span className="contact">{contact}</span>
-                <div> Reviews {rating} </div>
+                    <span className="contact">Contact {contact}</span>
+                </div>
                 </div>            
-            </div>
         </section>
     );
 };
