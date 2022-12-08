@@ -1,8 +1,8 @@
-import { React, useState } from "react";
+import { React } from "react";
 // import { Link } from "react-router-dom";
 
-const ShopListItem = ({ project }) => {
-    const { name, location, price, backgourndSrc, link, contact, rating } = project
+const ShopListItem = ({ shop }) => {
+    const { name, location, price, backgourndSrc, link, contact, rating } = shop
      
     return (
       <li className="card"> 

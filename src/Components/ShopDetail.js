@@ -8,7 +8,7 @@ const ShopDetail = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:4000/projects/${id}`)
+        fetch(`http://localhost:3000/shops/${id}`)
          .then((r) => r.json())
          .then((shop) => {
             setShop(shop);
@@ -29,6 +29,7 @@ const ShopDetail = () => {
                 <div className="details">
                     <h2>{name}</h2>
                     <p>{location}</p>
+                    <p>{price}</p>
                     {link ? (
                         <p>
                             <a target="_blank" rel="noreferrer" href={link}>

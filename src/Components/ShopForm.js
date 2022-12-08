@@ -21,12 +21,12 @@ const ShopForm = ( { onAddShop }) => {
             method: "POST",
             headers: {
                 "Content-Type":"application/json",
-                "Accept": "application/json"
+                Accept: "application/json"
             },
             body: JSON.stringify({...formData}),
         };
 
-        fetch("http://localhost:4000/shops", configObj)
+        fetch("http://localhost:3000/shops", configObj)
          .then((resp) => resp.json())
          .then((shop) => {
             onAddShop(shop);
