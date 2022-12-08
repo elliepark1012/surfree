@@ -34,10 +34,6 @@ const App = () =>  {
         <Home />
       </Route>
 
-      <Route path="/shops">
-        <ShopList shops={shops} />
-      </Route>
-
       <Route path="/shops/new">
         <ShopForm onAddShop={onAddShop} />
       </Route>
@@ -49,7 +45,6 @@ const App = () =>  {
       <Route path="/shops">
         <ShopList shops={shops} />
       </Route>
-
     </Switch> 
     </div>
   );
