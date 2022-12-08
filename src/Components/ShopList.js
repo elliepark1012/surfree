@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ShopListItem from "./ShopListItem";
+import NewShopListItem from "./NewShopListItem";
 
 const ShopList = ({ shops }) => {
    
@@ -22,6 +23,17 @@ const ShopList = ({ shops }) => {
         </Link>
       );
     });
+
+    const newShopListItem = newShops.map((shop) => {
+      return (
+        <Link to={`/shops/${shop.id}`}>
+        <NewShopListItem 
+           key={shop.id} 
+           shop={shop} 
+         /> 
+     </Link>
+      )
+    })
   
     const handleOnChange = (e) => setSearchQuery(e.target.value);
     
@@ -37,21 +49,17 @@ const ShopList = ({ shops }) => {
     return (
       <section>
         <h1 className="shoplist-header">All Shops</h1>
-
-          {/* want to add filtered options for location */}
+           {/* want to add filtered options for location */}
         <div className="search-box">
           <input className="search-input" type="text" placeholder="Search for your next surf shop 🏄" onChange={handleOnChange} autoFocus required/> 
         </div>
         {/* <div style={{margin: "1rem 0"}}>
                 <Link to="/shops" className="button">
                     View All Shops
-                </Link> </div>  */}
-                
+                </Link> </div>  */}          
         <ul className="cards">{shopListItems}</ul>
-        <h3>New Shops</h3> 
-            {newShops.map((shop) => (
-                <p key={shop.id}>{shop.name}</p>
-            ))}
+        <h1 className="shoplist-header">New Shops</h1>
+        <ul className="cards">{newShopListItem}</ul>
       </section>
     )
   }

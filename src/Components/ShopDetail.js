@@ -22,7 +22,7 @@ const ShopDetail = () => {
 
     return (
         <section>
-            <div className="shop-detail box">
+            <div className="shop-detail-box">
                 <div className="shop-image">
                     <img src={backgroundSrc} alt={name} />                 
                 </div>

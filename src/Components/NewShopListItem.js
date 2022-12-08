@@ -1,8 +1,8 @@
 import { React } from "react";
 // import { Link } from "react-router-dom";
 
-const ShopListItem = ({ shop }) => {
-  console.log(shop)
+const NewShopListItem = ({ shop }) => {
+  
     const { name, location, price, backgroundSrc, rating } = shop
      
     return (
@@ -20,4 +20,4 @@ const ShopListItem = ({ shop }) => {
     );
   };
 
-  export default ShopListItem;
+  export default NewShopListItem;
