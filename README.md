@@ -8,11 +8,11 @@ npm install && npm start
 ```bash
 json-server --watch db.json 
 ```
-
---explanation of website
-
---screenshot of components hierecyy 
-
-![Alt Components Diagram](relative/path/to/img.jpeg?raw=true "Title")
+# Components Diagram
+This is the diagram of the surfree website components. 
+8 Components in total including App.js.
 
 ![Alt Components Diagram](./src/assets/image.jpeg?raw=true "Title")
+
+# About The Project
+Surfree is an React app written entirely with Javascript and has no jQuery dependency. The data is based on google map and each shop's website. 
