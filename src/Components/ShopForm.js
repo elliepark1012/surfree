@@ -50,7 +50,7 @@ const ShopForm = ( { onAddShop }) => {
     return (
         <section>
             <form className="form" autoComplete="off" onSubmit={handleSubmit}>
-                <h1 className="form-title">Join Our Community<br></br>//Surfree Partnership</h1>
+                <h1 className="form-title">Join Our Community<br></br>- Surfree Partnership -</h1>
 
                 <label htmlFor="name">Name</label>
                 <input 
@@ -94,7 +94,7 @@ const ShopForm = ( { onAddShop }) => {
                 />
 
                 <h3>Our Connection Team will contact you shortly. 
-                <br></br>While your shop will show up on the page with Coming Soon on the image!</h3>    
+                <br></br>Your shop will show up on the page with Coming Soon image!</h3>    
 
                 <button type="sumbmit" onClick={handleClick}> Become a Partner</button>
             </form>

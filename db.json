@@ -229,6 +229,15 @@
       "link": "https://www.bravesurf.com/",
       "contact": "(732)-842-6767",
       "rating": 4
+    },
+    {
+      "name": "Josh's Surf Shop",
+      "location": "Rockaway Beach",
+      "price": "13",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 24
     }
   ]
 }
