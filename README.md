@@ -13,4 +13,4 @@ json-server --watch db.json
 
 --screenshot of components hierecyy 
 
-![Alt Components Diagram](relative/path/to/img.jpeg?raw=true "Title")
+![Alt Components Diagram](./src/assets/image.jpeg raw=true "Title")
