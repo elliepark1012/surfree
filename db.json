@@ -503,6 +503,42 @@
       "link": "",
       "contact": "",
       "id": 53
+    },
+    {
+      "name": "",
+      "location": "",
+      "price": "",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 54
+    },
+    {
+      "name": "",
+      "location": "",
+      "price": "",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 55
+    },
+    {
+      "name": "",
+      "location": "",
+      "price": "233",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 56
+    },
+    {
+      "name": "",
+      "location": "",
+      "price": "123123",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 57
     }
   ]
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ShopListItem from "./ShopListItem";
 import NewShopListItem from "./NewShopListItem";
 
-const ShopList = ({ shops }) => {
+const ShopList = ({ shops, logIn}) => {
    
     const [searchQuery, setSearchQuery] = useState("");
     const [newShops, setNewShops] = useState([]);
@@ -19,6 +19,7 @@ const ShopList = ({ shops }) => {
            <ShopListItem 
               key={shop.id} 
               shop={shop} 
+              logIn={logIn}
             /> 
         </Link>
       );
@@ -30,6 +31,7 @@ const ShopList = ({ shops }) => {
         <NewShopListItem 
            key={shop.id} 
            shop={shop} 
+           logIn={logIn}
          /> 
      </Link>
       )

@@ -6,7 +6,7 @@ const ShopForm = ( { onAddShop }) => {
         name:"",
         location:"",
         price:"",
-        backgroundSrc:{comingsoon},
+        backgroundSrc:comingsoon,
         link:"",
         contact:"",
     });
@@ -84,13 +84,13 @@ const ShopForm = ( { onAddShop }) => {
                     value={formData.link}
                 />
 
-                <label htmlFor="backgroundSrc">Image</label>
+                <label htmlFor="price">Surf Board Rental Price (per hour)</label>
                 <input 
-                    type="text"
-                    id="backgroundSrc"
-                    name="backgroundSrc"
+                    type="number"
+                    id="price"
+                    name="price"
                     onChange={handleChange}
-                    value={formData.backgroundSrc}
+                    value={formData.price}
                 />
 
                 <h3>Our Connection Team will contact you shortly. 

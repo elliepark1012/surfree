@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const ShopDetail = () => {
+const ShopDetail = ( { logIn } ) => {
     const [shop, setShop] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
 
@@ -19,6 +19,7 @@ const ShopDetail = () => {
     if (!isLoaded) return <h2>Loading...</h2>
     
     const { name, location, price, backgroundSrc, link, contact, rating } = shop;
+    const priceVariant = logIn? `$${price}/h` : `🙌 $${price -3}/h`
 
     return (
         <section>
@@ -29,7 +30,7 @@ const ShopDetail = () => {
                     <h1 className="card-name">{name}</h1>
                     <h1 className="card-location">📍 {location}</h1>
                 <div className="details">
-                    <h1>Surf Board Rental ${price}/h </h1>
+                    <h1>Surf Board Rental {priceVariant} </h1>
                     <h1>Average Review {rating}</h1>
                     {link ? (
                         <p> 

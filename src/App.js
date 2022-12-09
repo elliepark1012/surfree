@@ -8,7 +8,7 @@ import ShopDetail from "./Components/ShopDetail";
 import ShopList from "./Components/ShopList";
 
 const App = () =>  {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [logIn, setLogIn] = useState(true);
   const [shops, setShops] = useState([]);
 
   useEffect(() => {
@@ -17,8 +17,8 @@ const App = () =>  {
       .then((shops) => setShops(shops));
   }, []);  
 
-  const onToggleDarkMode = () => {
-    setIsDarkMode((isDarkMode) => !isDarkMode)
+  const onToggleLogIn = () => {
+    setLogIn((logIn) => !logIn)
   }
 
   const onAddShop = (newShop) => {
@@ -26,8 +26,8 @@ const App = () =>  {
   }
 
   return (
-    <div className={isDarkMode ? "App" : "App light"}>
-      <Header isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode}/> 
+    <div>
+      <Header logIn={logIn} onToggleLogIn={onToggleLogIn}/> 
 
     <Switch>
       <Route exact path="/">
@@ -39,11 +39,11 @@ const App = () =>  {
       </Route>
 
       <Route path="/shops/:id">
-        <ShopDetail /> 
+        <ShopDetail logIn={logIn}/> 
       </Route>
 
       <Route path="/shops">
-        <ShopList shops={shops} />
+        <ShopList shops={shops} logIn={logIn} />
       </Route>
     </Switch> 
     </div>
