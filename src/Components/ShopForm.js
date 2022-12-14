@@ -51,7 +51,6 @@ const ShopForm = ( { onAddShop }) => {
         <section>
             <form className="form" autoComplete="off" onSubmit={handleSubmit}>
                 <h1 className="form-title">Join Our Community<br></br>- Surfree Partnership -</h1>
-
                 <label htmlFor="name">Name</label>
                 <input 
                     type="text"
@@ -60,7 +59,6 @@ const ShopForm = ( { onAddShop }) => {
                     onChange={handleChange}
                     value={formData.name}
                 />
-
                 <label htmlFor="location">Location</label>
                 <select
                     id="location"
@@ -74,7 +72,6 @@ const ShopForm = ( { onAddShop }) => {
                     <option value="Montauk">Montauk</option>
                     <option value="Sandy Hook">Sandy Hook</option>
                 </select>
-
                 <label htmlFor="link">Shop Link</label>
                 <input 
                     type="text"
@@ -83,7 +80,6 @@ const ShopForm = ( { onAddShop }) => {
                     onChange={handleChange}
                     value={formData.link}
                 />
-
                 <label htmlFor="price">Surf Board Rental Price (per hour)</label>
                 <input 
                     type="number"
@@ -92,10 +88,8 @@ const ShopForm = ( { onAddShop }) => {
                     onChange={handleChange}
                     value={formData.price}
                 />
-
                 <h3>Our Connection Team will contact you shortly. 
                 <br></br>Your shop will show up on the page with Coming Soon image!</h3>    
-
                 <button type="sumbmit" onClick={handleClick}> Become a Partner</button>
             </form>
         </section>
