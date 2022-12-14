@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ShopListItem from "./ShopListItem";
 import NewShopListItem from "./NewShopListItem";
 
-const ShopList = ({ shops, logIn}) => {
+const ShopList = ({ shops, logIn }) => {
    
     const [searchQuery, setSearchQuery] = useState("");
     const [newShops, setNewShops] = useState([]);
@@ -46,7 +46,7 @@ const ShopList = ({ shops, logIn}) => {
        .then((newShops) => {
           setNewShops(newShops)
        });
-  },[]);
+  },[newShops]);
     
     return (
       <section>

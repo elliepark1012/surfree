@@ -238,6 +238,24 @@
       "link": "",
       "contact": "",
       "id": 24
+    },
+    {
+      "name": "Ellie's New Shop",
+      "location": "Sandy Hook",
+      "price": "25",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 25
+    },
+    {
+      "name": "Happy dog",
+      "location": "Long Beach",
+      "price": "20",
+      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
+      "link": "",
+      "contact": "",
+      "id": 26
     }
   ]
 }
