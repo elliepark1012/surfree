@@ -3,12 +3,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .logo-image {
-     width: 400px;
+    width: 400px;
     height: 150px;
     margin-left: 50px;
     margin-top: 50px;
@@ -26,6 +24,7 @@ video {
   flex-direction: row;
   justify-content: center;
 }
+
 .navbar {
   text-align: right;
   margin-left: 400px;
@@ -47,13 +46,10 @@ video {
 
 .nav-bar-link:hover {
   color: #4e6672;
-  font-style: italic;
   font-weight: bold;
 }
 
 .nav-bar-button {
-  display: inline-block;
-  outline: 0;
   border: none;
   cursor: pointer;
   height: 40px;
@@ -65,10 +61,6 @@ video {
   font-size: 20px;
   font-weight: 500;
   margin-right: 60px;
-}
-
-.nav-bar-button:hover {
-  background-color: #2222221a;
 }
 
 .home-content {
@@ -110,16 +102,17 @@ padding: 60px;
   }
 }
 
-.shoplist-header {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.shoplist-section {
+  text-align: center;
+}
+
+.shoplist-header { 
   letter-spacing: 5px;
   font-size: 60px;
-  text-align: center;
 }
 
 .search-box {
   width: 100%;
-  text-align: center;
 }
 
 .search-input {
@@ -159,9 +152,7 @@ padding: 60px;
   box-shadow: 10px 5px 20px 20px #181818;
   cursor: pointer;
 }
-.card:hover .button-primary {
-  transform: translate(10px, 0);
-}
+
 .card-image {
   height: 225px;
   width: 450px;
@@ -169,18 +160,16 @@ padding: 60px;
 .card-name {
   text-decoration-line: none;
   text-transform: uppercase;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   margin-inline: 20px;
   color: #181818;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .card-location {
-  text-align: center;
   color:#5d5959;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .price-rating-grid-box1, .price-rating-grid-box2, .price-rating-grid-box3, .price-rating-grid-box4{
@@ -188,14 +177,13 @@ padding: 60px;
   font-family: sans-serif;
   overflow: hidden;
   height: 30px; 
-  
 }
 
 .price-rating-grid-box1, .price-rating-grid-box2 {
   color: #006ae3;
   font-size: 30px;
   border-radius: 10px 10px 0px 0px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .price-rating-grid-box3, .price-rating-grid-box4 {
@@ -210,13 +198,11 @@ padding: 60px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
 }
 
 .price-rating-grid
  > div {
   flex-basis: calc(50%);
-  text-align: center;
 }
 
 a {
@@ -239,10 +225,10 @@ a {
   height: 300px;
   padding: 20px;
 }
+
 .details {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
-  margin-inline: px;
   color: #39393b;
 }
 
@@ -273,7 +259,6 @@ a {
     border:0;
     border-radius: 5px;
     font-size: 20px;
-    text-align: center;
 }
 
 .form {

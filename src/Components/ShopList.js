@@ -47,7 +47,7 @@ const ShopList = ({ shops, logIn }) => {
   },[newShops]);
     
     return (
-      <section>
+      <section className="shoplist-section">
         <h1 className="shoplist-header">All Shops</h1>
         <div className="search-box">
           <input className="search-input" type="text" placeholder="Search for your next surf shop 🏄" onChange={handleOnChange} autoFocus required/> 
