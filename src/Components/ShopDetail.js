@@ -24,11 +24,9 @@ const ShopDetail = ( { logIn } ) => {
     return (
         <section>
             <div className="shop-detail-box">
-                <div>
-                    <img className="shop-image" src={backgroundSrc} alt={name} />                 
-                </div>
-                    <h1 className="card-name">{name}</h1>
-                    <h1 className="card-location">📍 {location}</h1>
+                <img className="shop-image" src={backgroundSrc} alt={name} />                 
+                <h1 className="card-name">{name}</h1>
+                <h1 className="card-location">📍 {location}</h1>
                 <div className="details">
                     <h1>Surf Board Rental {priceVariant} </h1>
                     <h1>Average Review {rating}</h1>
@@ -39,9 +37,9 @@ const ShopDetail = ( { logIn } ) => {
                             </a>
                         </p>
                     ) : null}
-                    <span className="contact">Contact {contact}</span>
+                <span className="contact">Contact {contact}</span>
                 </div>
-                </div>            
+            </div>            
         </section>
     );
 };
