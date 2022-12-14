@@ -1,11 +1,9 @@
 import { React } from "react";
-// import { Link } from "react-router-dom";
 
 const NewShopListItem = ({ shop, logIn }) => {
   
     const { name, location, price, backgroundSrc, rating } = shop
-    const priceVariant = logIn? 
-    `$${price}/h` : `🙌 $${price -3}/h 🙌`
+    const priceVariant = logIn? `$${price}/h` : `🙌 $${price -3}/h 🙌`
 
     return (
       <li className="card"> 
@@ -18,7 +16,7 @@ const NewShopListItem = ({ shop, logIn }) => {
           <div className="price-rating-grid-box4">Average Rating</div> 
         </div>
         <h2 className="card-location">📍 {location} </h2>
-        </li>
+      </li>
     );
   };
 
