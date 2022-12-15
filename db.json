@@ -42,26 +42,16 @@
     },
     {
       "id": 5,
-      "name": "Breakwater Surf Co",
-      "location": "Rockaway Beach",
-      "price": 20,
-      "backgroundSrc": "https://static.wixstatic.com/media/8af282_21e5f09a64894418811c5a81fbe49cb6~mv2_d_3872_2592_s_4_2.jpg/v1/fill/w_1960,h_1566,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8af282_21e5f09a64894418811c5a81fbe49cb6~mv2_d_3872_2592_s_4_2.jpg",
-      "link": "https://www.breakwatersurf.com/",
-      "contact": "(718)-502-8258",
-      "rating": 4.7
-    },
-    {
-      "id": 6,
       "name": "Skudin Surf Rockaway Beach",
       "location": "Rockaway Beach",
       "price": 20,
-      "backgroundSrc": "https://lh3.googleusercontent.com/p/AF1QipNUShgtkqsBITAJ5ZjPBqY8JhLc4Q57id2U_mDQ=s1360-w1360-h1020",
+      "backgroundSrc": "https://static.wixstatic.com/media/8af282_21e5f09a64894418811c5a81fbe49cb6~mv2_d_3872_2592_s_4_2.jpg/v1/fill/w_1960,h_1566,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8af282_21e5f09a64894418811c5a81fbe49cb6~mv2_d_3872_2592_s_4_2.jpg",
       "link": "https://www.skudinsurf.com/",
       "contact": "(516)-318-3993",
       "rating": 4.4
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Surfboard Tribe NYC",
       "location": "Rockaway Beach",
       "price": 10,
@@ -71,7 +61,7 @@
       "rating": 4.6
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "The Local Surfschool",
       "location": "Rockaway Beach",
       "price": 18,
@@ -81,7 +71,7 @@
       "rating": 4.9
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Long Beach Surf Shop",
       "location": "Long Beach",
       "price": 25,
@@ -91,13 +81,23 @@
       "rating": 4.5
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Moku Surf NY",
       "location": "Long Beach",
       "price": 25,
       "backgroundSrc": "https://s3-media0.fl.yelpcdn.com/bphoto/W_yeqfLG-l7-cncqzLhbzQ/l.jpg",
       "link": "http://mokusurf.com/",
       "contact": "(516)-442-6900",
+      "rating": 4.2
+    },
+    {
+      "id": 10,
+      "name": "unsOund Surf",
+      "location": "Long Beach",
+      "price": 10,
+      "backgroundSrc": "https://cdn.shoplightspeed.com/shops/634322/files/19755708/unsound-surf.jpg",
+      "link": "https://www.unsoundsurf.com/",
+      "contact": "(516)-889-1112",
       "rating": 4.2
     },
     {
@@ -112,26 +112,16 @@
     },
     {
       "id": 12,
-      "name": "unsOund Surf",
-      "location": "Long Beach",
-      "price": 10,
-      "backgroundSrc": "https://cdn.shoplightspeed.com/shops/634322/files/19755708/unsound-surf.jpg",
-      "link": "https://www.unsoundsurf.com/",
-      "contact": "(516)-889-1112",
-      "rating": 4.2
-    },
-    {
-      "id": 13,
       "name": "Skudin Surf Long Beach",
       "location": "Long Beach",
       "price": 25,
-      "backgroundSrc": "https://lh3.googleusercontent.com/p/AF1QipNUShgtkqsBITAJ5ZjPBqY8JhLc4Q57id2U_mDQ=s1360-w1360-h1020",
+      "backgroundSrc": "https://cdn.shopify.com/s/files/1/0286/5545/2238/files/2_1800x.jpg?v=1669043147",
       "link": "https://www.skudinsurf.com/",
       "contact": "(516)-318-3993",
       "rating": 4.5
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Montauk Surf & Sports",
       "location": "Montauk",
       "price": 10,
@@ -141,7 +131,7 @@
       "rating": 4.5
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Sunset Surf Shack",
       "location": "Montauk",
       "price": 10,
@@ -151,7 +141,7 @@
       "rating": 4.2
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Air & Speed Surf Shop",
       "location": "Montauk",
       "price": 10,
@@ -161,7 +151,7 @@
       "rating": 3.9
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "East End Surf Club",
       "location": "Montauk",
       "price": 20,
@@ -171,7 +161,7 @@
       "rating": 5
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Engstorm Surf Lessons",
       "location": "Montauk",
       "price": 25,
@@ -181,7 +171,7 @@
       "rating": 5
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Coreyswave Professional Surf",
       "location": "Montauk",
       "price": 20,
@@ -191,7 +181,7 @@
       "rating": 5
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Eastern Lines Surf Shop",
       "location": "Sandy Hook",
       "price": 30,
@@ -201,7 +191,7 @@
       "rating": 4.3
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Lucky Dog Surf",
       "location": "Sandy Hook",
       "price": 10,
@@ -211,7 +201,7 @@
       "rating": 4.7
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "TAK Waterman Surf & Fish",
       "location": "Sandy Hook",
       "price": 10,
@@ -221,7 +211,7 @@
       "rating": 5
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Brave new world",
       "location": "Sandy Hook",
       "price": 15,
@@ -237,25 +227,7 @@
       "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
       "link": "",
       "contact": "",
-      "id": 24
-    },
-    {
-      "name": "Ellie's New Shop",
-      "location": "Sandy Hook",
-      "price": "25",
-      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
-      "link": "",
-      "contact": "",
-      "id": 25
-    },
-    {
-      "name": "Happy dog",
-      "location": "Long Beach",
-      "price": "20",
-      "backgroundSrc": "/static/media/coming_soon.a6fac1fcc5c7d361791f.jpg",
-      "link": "",
-      "contact": "",
-      "id": 26
+      "id": 23
     }
   ]
 }
